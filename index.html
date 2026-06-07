@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ポートフォリオ | yuga</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <button class="nav-toggle" id="navToggle" aria-label="メニューを開く" aria-controls="navMenu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a href="#top" class="logo">Portfolio</a>
+      <nav class="nav" id="navMenu">
+        <a href="about.html">About</a>
+        <a href="#works">Works</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="container hero__inner">
+        <div class="hero__panel">
+          <p class="eyebrow">Web Designer / Coder</p>
+          <h1>yuga</h1>
+          <p class="hero__lead">シンプルで洗練されたデザインと、心地よい体験をつくります。</p>
+          <p class="hero__description">Webデザインとコーディングを中心に、大阪を拠点に活動しています。ユーザーに寄り添う表現を大切にし、想いが伝わるサイト制作を目指しています。</p>
+          <div class="hero__actions">
+            <a class="button button--ghost" href="#works">View Works</a>
+            <a class="button button--outline" href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="hero__photo">
+          <img src="img/profile.jpg" alt="yugaのプロフィール写真" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--about" id="about">
+      <div class="container about__inner">
+        <div class="about__text">
+          <span class="section__label">About</span>
+          <h2>想いをカタチに、伝わるデザインを。</h2>
+          <p>はじめまして、yugaです。Webサイト制作とコーディングを中心に活動しています。シンプルで使いやすい設計を大切にしながら、見る人の印象に残る表現を考えます。</p>
+          <ul class="about__list">
+            <li>洗練されたビジュアル表現</li>
+            <li>読みやすく使いやすいインターフェース設計</li>
+            <li>レスポンシブ対応と丁寧なコーディング</li>
+          </ul>
+          <a class="button button--outline about__button" href="about.html">経歴を詳しく見る</a>
+        </div>
+        <div class="about__visual">
+          <div class="about__visual-box"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--works" id="works">
+      <div class="container section__inner">
+        <div class="section__header section__header--wide">
+          <span class="section__label">Works</span>
+          <h2>制作実績</h2>
+        </div>
+        <div class="works-showcase" aria-label="制作実績のスライダー">
+          <div class="works-track">
+            <a class="work-card" href="works/apareru/index.html" target="_blank" rel="noopener">
+              <div class="work-card__thumb work-card__thumb--apareru"></div>
+              <div class="work-card__body">
+                <p class="work-card__title">Apparel Shop</p>
+                <p class="work-card__meta">HTML / CSS / JavaScript</p>
+                <p class="work-card__description">商品一覧から詳細ページまで作成した架空ショップサイト。</p>
+              </div>
+            </a>
+            <a class="work-card" href="works/joukyu/index.html" target="_blank" rel="noopener">
+              <div class="work-card__thumb work-card__thumb--joukyu"></div>
+              <div class="work-card__body">
+                <p class="work-card__title">Travel Blog</p>
+                <p class="work-card__meta">Responsive Layout</p>
+                <p class="work-card__description">記事カードとサイドバーを組み合わせたブログレイアウト。</p>
+              </div>
+            </a>
+            <a class="work-card" href="works/apple-site/index.html" target="_blank" rel="noopener">
+              <div class="work-card__thumb work-card__thumb--apple"></div>
+              <div class="work-card__body">
+                <p class="work-card__title">Apple Site</p>
+                <p class="work-card__meta">Product Landing Page</p>
+                <p class="work-card__description">製品紹介ページをイメージしたビジュアル重視のLP。</p>
+              </div>
+            </a>
+            <a class="work-card" href="works/apareru/index.html" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+              <div class="work-card__thumb work-card__thumb--apareru"></div>
+              <div class="work-card__body">
+                <p class="work-card__title">Apparel Shop</p>
+                <p class="work-card__meta">HTML / CSS / JavaScript</p>
+                <p class="work-card__description">商品一覧から詳細ページまで作成した架空ショップサイト。</p>
+              </div>
+            </a>
+            <a class="work-card" href="works/joukyu/index.html" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+              <div class="work-card__thumb work-card__thumb--joukyu"></div>
+              <div class="work-card__body">
+                <p class="work-card__title">Travel Blog</p>
+                <p class="work-card__meta">Responsive Layout</p>
+                <p class="work-card__description">記事カードとサイドバーを組み合わせたブログレイアウト。</p>
+              </div>
+            </a>
+            <a class="work-card" href="works/apple-site/index.html" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+              <div class="work-card__thumb work-card__thumb--apple"></div>
+              <div class="work-card__body">
+                <p class="work-card__title">Apple Site</p>
+                <p class="work-card__meta">Product Landing Page</p>
+                <p class="work-card__description">製品紹介ページをイメージしたビジュアル重視のLP。</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--blog" id="blog">
+      <div class="container section__inner">
+        <div class="section__header section__header--wide">
+          <span class="section__label">Blog</span>
+          <h2>日々の記録</h2>
+        </div>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-card__image">
+              <img src="img/IMG_7165.jpeg" alt="山の景色" />
+            </div>
+            <h3>山登りの記録</h3>
+            <p>週末は山に登って自然の空気をたっぷり吸い込みます。色や光、風景から制作のヒントをもらっています。</p>
+          </article>
+          <article class="blog-card">
+            <div class="blog-card__image">
+              <img src="img/IMG_8798.jpeg" alt="自然の散歩道" />
+            </div>
+            <h3>自然散歩</h3>
+            <p>森や海沿いを歩く時間が好きです。季節の移ろいを感じながら、写真やメモに残しています。</p>
+          </article>
+          <article class="blog-card">
+            <div class="blog-card__image">
+              <img src="img/IMG_8802.jpeg" alt="自然の風景" />
+            </div>
+            <h3>リラックス時間</h3>
+            <p>自然の中で過ごす時間が、制作のアイデアにつながります。ゆったりした休日の過ごし方を大切にしています。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contact">
+      <div class="container contact__inner">
+        <div class="contact__card">
+          <span class="section__label">Contact</span>
+          <h2>お仕事のご依頼・ご相談はこちらから。</h2>
+          <p>下記のメールまたはSNSより、お気軽にお問い合わせください。制作内容がまだ固まっていない段階でも大丈夫です。</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> maunti128@gmail.com</li>
+            <li><strong>Instagram:</strong> @yuga_webdesign</li>
+          </ul>
+          <a class="button button--ghost" href="mailto:maunti128@gmail.com">メールで相談する</a>
+        </div>
+        <div class="contact__visual"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2026 yuga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
